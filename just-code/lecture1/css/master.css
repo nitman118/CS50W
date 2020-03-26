@@ -1,0 +1,49 @@
+body{
+  background: gray;
+}
+
+.div-1{
+  border: black;
+  margin: 10px;
+  padding: 20px;
+}
+
+.div-1:hover{
+
+  background-color: tomato;
+}
+
+.div-1::selection{
+  background-color: green;
+}
+
+@media print{
+      .screen-only{
+        display: none;
+      }
+}
+
+.screen-only::selection{
+  background-color: tomato;
+}
+
+
+@media (min-width:500px){
+  body{
+  background-color: gray;
+}
+h1::before{
+  content: 'Welcome to my webpage';
+}
+}
+
+
+@media (max-width:499px){
+  body{
+  background-color: yellow;
+}
+
+h1::before{
+  content: 'Welcome';
+}
+}

@@ -1,0 +1,50 @@
+$tueColor: #C92027;
+$seColor: #01D05E;
+
+.col-md-4 > img {
+  width: 140px;
+  height: 140px;
+}
+
+.fillVertical {
+  height: 100vh;
+}
+
+#contactDetails {
+  margin-top: 100px;
+}
+
+#yesText {
+  margin-top: 100px;
+}
+
+.tue {
+  background-color: $tueColor;
+}
+
+.se {
+  background-color: $seColor;
+}
+
+#seimage {
+  height: 240px;
+  width: 240px;
+}
+
+#setext,
+#tuetext {
+  margin-top: 10px;
+}
+
+.bodyPad {
+  padding-top: 50px;
+}
+@media (max-width: 600px) {
+  body {
+    padding-top: 50px;
+  }
+
+  .fillVertical {
+    height: 10vh;
+  }
+}
